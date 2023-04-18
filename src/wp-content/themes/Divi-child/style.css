@@ -1,0 +1,5662 @@
+/*Theme Name: Divi Child Theme
+Description: Divi Child Theme
+Author:  David Tierney
+Author URI:  http://designsbytierney.com
+Template: Divi
+Version: 3.17.6
+*/
+
+#logo {
+    max-height: 100% !important;
+}
+
+/*-------------fixed header css------------*/
+
+header#main-header.et-fixed-header {
+    background: #000 !important;
+}
+
+/*--------------menu-----------------*/
+
+#top-menu a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2ea3f2 !important;
+    text-transform: uppercase;
+}
+
+#top-menu .sub-menu a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+#et-secondary-menu {
+    float: right;
+    padding-bottom: .73em !important;
+}
+
+#et-secondary-menu a {
+    font-size: 14px;
+}
+
+span#my_whatsapp {
+    padding-right: 10px;
+}
+
+#main-header,
+#main-header .nav li ul,
+.et-search-form,
+#main-header .et_mobile_menu {
+    background-color: #2ea3f2;
+}
+
+nav#top-menu-nav ul.sub-menu li a {
+    font-size: 14px;
+    text-transform: uppercase !important;
+    line-height: normal !important;
+}
+
+nav#top-menu-nav ul.sub-menu li a {
+    font-size: 14px;
+    text-transform: capitalize !important;
+    padding: 6px 3px !important;
+    border-bottom: 1px solid #ddd !important;
+    margin-right: 0px !important;
+    line-height: normal !important;
+}
+
+nav#top-menu-nav ul.sub-menu li:last-child a {
+    border-bottom: none !important;
+}
+
+.nav li ul {
+    visibility: hidden;
+    z-index: 9999;
+    width: 240px !important;
+    border-top: 3px solid #2ea3f2;
+    opacity: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.sub-menu li ul {
+    visibility: hidden;
+    z-index: 9999;
+    width: 240px !important;
+    border-top: 3px solid #2ea3f2;
+    opacity: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+#top-menu li li a {
+    width: 200px;
+    padding: 5px 20px !important;
+}
+
+header#main-header {
+    background: none !important;
+    border-bottom: 1px solid #555 !important;
+}
+
+.course_bg_new {
+    width: 100%;
+    min-height: 384px;
+    position: relative;
+}
+
+.course_bg_new:before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.course_bg_new h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff !important;
+    text-align: center;
+}
+
+/*-----------------End all header section top move---------*/
+
+/*----------------Top search icon------------------*/
+
+#et_top_search {
+    background: #2ea3f2 !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: block !important;
+    border-radius: 100% !important;
+    line-height: 40px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    margin-top: -10px !important;
+}
+
+#et_top_search {
+    color: #fff !important;
+}
+
+#et_search_icon:hover {
+    color: #000 !important;
+}
+
+#et_search_icon:before {
+    position: absolute !important;
+    top: 10px !important;
+    left: 10px !important;
+    font-size: 18px !important;
+    content: "\55" !important;
+}
+
+/*----------------End top search icon--------------*/
+
+div#courses_offer_listing {
+    float: right !important;
+    width: 100% !important;
+}
+
+div#courses_offer_listing ul {
+    float: left !important;
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+div#courses_offer_listing ul li {
+    float: left !important;
+    width: 33.33% !important;
+    padding: 34px 20px !important;
+    text-align: center !important;
+    list-style: none !important;
+    border-right: 1px dashed #ababab !important;
+    border-bottom: 1px dashed #ababab !important;
+    min-height: 139px !important;
+}
+
+#main-footer #et-footer-nav ul#menu-footer-menu {
+    text-align: center !important;
+}
+
+#footer-info {
+    float: none !important;
+    padding-bottom: 10px;
+    color: #fff !important;
+    text-align: center !important;
+}
+
+/*-------------Product shop page(Home page)----------------------*/
+
+.et_pb_shop_0 .et_shop_image {
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+}
+
+.et_pb_shop_0.et_pb_shop .et_shop_image>img {
+    border-width: 1px !important;
+    border-color: #000 !important;
+}
+
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h3,
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h1,
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h2,
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h4,
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h5,
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product h6,
+h2.woocommerce-loop-product__title {
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #2ea3f2 !important;
+    text-align: center !important;
+    line-height: 1.2em !important;
+}
+
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product .price,
+.et_pb_shop_0.et_pb_shop .woocommerce ul.products li.product .price .amount {
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000 !important;
+    text-align: center !important;
+}
+
+.woocommerce ul.products li.product .price,
+.woocommerce ul.products li.product .price del,
+.woocommerce-page ul.products li.product .price,
+.woocommerce-page ul.products li.product .price del {
+    margin: 0 !important;
+    color: #666 !important;
+    font-size: 14px;
+    text-align: center !important;
+}
+
+.woocommerce ul.products li.product .button {
+    margin-top: 1em;
+    font-size: 14px !important;
+    margin-left: 0px !important;
+    font-weight: 700 !important;
+}
+
+.woocommerce a.button:hover {
+    background: #2ea3f2 !important;
+    color: #fff !important;
+}
+
+.product_meta {
+    padding-top: 6px;
+    border-top: 0px solid #dadada;
+    color: #666;
+    font-size: 14px;
+}
+
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item,
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product,
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_widget,
+.et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_grid_item,
+.et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product,
+.et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_widget {
+    width: 20.875% !important;
+    margin-right: 5.5% !important;
+    margin-bottom: 5.5% !important;
+}
+
+.et_pb_module .et_pb_shop .et_pb_shop_0 ul li a {
+    margin-left: 60px !important;
+}
+
+.woocommerce ul.products li.product .button:hover:after {
+    font-size: 22px;
+}
+
+.woocommerce-MyAccount-content a.woocommerce-Button.button:after {
+    font-size: 18px;
+    position: absolute !important;
+    right: 0 !important;
+    top: 30% !important;
+}
+
+/*-------------- single product  -----------------*/
+
+div#tab-description h2:first-child {
+    display: none !important;
+}
+
+.woocommerce-Tabs-panel h2,
+.woocommerce-Tabs-panel h3 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #000 !important;
+}
+
+.woocommerce-Tabs-panel h1 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: #000 !important;
+}
+
+button.single_add_to_cart_button.button.alt:hover {
+    background: #2ea3f2 !important;
+    color: #fff !important
+}
+
+.posted_in a {
+    color: #2ea3f2 !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.woocommerce-tabs.wc-tabs-wrapper ul.tabs.wc-tabs {
+    background: none !important;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li.active {
+    background: #2ea3f2 !important;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li.active a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li {
+    background: #000 !important;
+    color: #fff;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+body.woocommerce .woocommerce-tabs {
+    border: none;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+    border: 1px solid #2ea3f2 !important;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel .et_pb_section.et_section_regular {
+    padding: 0px !important;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel .et_pb_row {
+    width: 100% !important;
+    margin: 0px !important;
+}
+
+.woocommerce #respond input#submit,
+.woocommerce-page #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page #content input.button,
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+    color: #fff !important;
+    border: none !important;
+}
+
+.woocommerce ul.products.columns-3 li.product,
+.woocommerce-page ul.products.columns-3 li.product {
+    width: 30.75%;
+    background: #f1f1f1;
+    padding: 10px !important;
+    height: 436px !important;
+}
+
+#top_three_product .woocommerce ul.products.columns-3 li.product {
+    width: 29.5%;
+    background: #fff !important;
+    padding: 0px !important;
+    height: 413px !important;
+}
+
+#top_three_product h2.woocommerce-loop-product__title {
+    font-size: 16px !important;
+    height: 64px !important;
+}
+
+#eight_product h2.woocommerce-loop-product__title {
+    font-size: 16px !important;
+    height: 64px !important;
+}
+
+#top_three_product .et_shop_image img {
+    height: 236px !important;
+}
+
+#eight_product .et_shop_image img {
+    height: 236px !important;
+}
+
+.et_pb_gutters3 .et_pb_column_3_4 .et_pb_shop_grid .woocommerce ul.products li.product {
+    margin-right: 3.47% !important;
+    margin-bottom: 7.47%;
+}
+
+.related .products .woocommerce-loop-product__title {
+    text-align: left !important;
+    font-size: 18px !important;
+}
+
+.related span.price {
+    text-align: left !important;
+}
+
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+    width: 36% !important;
+}
+
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images {
+    float: left;
+    width: 36% !important;
+}
+
+.summary.entry-summary {
+    width: 64% !important;
+    padding-left: 16px;
+}
+
+body.single.woocommerce .woocommerce-product-details__short-description {
+    margin-top: 0px !important;
+}
+
+body.woocommerce .woocommerce-tabs {
+    margin: 0px 0 45px !important;
+    border: 1px solid #d9d9d9;
+}
+
+.my_course_title h1.product_title.entry-title {
+    font-size: 24px;
+    color: #2ea3f2 !important;
+    padding-top: 10px !important;
+}
+
+.my_enroll_now {
+    padding-top: 10px;
+}
+
+body.single span.posted_in {
+    display: none !important;
+}
+
+body.single nav.woocommerce-breadcrumb {
+    display: none !important;
+}
+
+body.single.woocommerce div.product div.images img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+    max-width: 500px;
+    height: auto;
+}
+
+body.single.woocommerce .woocommerce-variation-price:before {
+    content: 'Price: ';
+    font-weight: 600;
+    font-size: 17px;
+}
+
+body.single.woocommerce .woocommerce-variation-price {
+    margin-bottom: 25px;
+}
+
+body.single.woocommerce .woocommerce-product-details__short-description {
+    margin-top: 25px;
+}
+
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    height: 250px !important;
+}
+
+/*-------------- End single peoduct -----------------*/
+
+/*-------------my account page---------------------*/
+
+.fwidget.et_pb_widget.widget_nav_menu {
+    margin: 0;
+}
+
+nav.woocommerce-MyAccount-navigation {
+    float: left;
+    width: 30%;
+    background: #2ea3f2;
+}
+
+.topbarmyaccount {
+    float: right;
+    padding: 0px 10px;
+}
+
+nav.woocommerce-MyAccount-navigation ul {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.woocommerce-MyAccount-navigation ul li {
+    float: left;
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid #fff;
+}
+
+nav.woocommerce-MyAccount-navigation ul li a {
+    padding: 10px;
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav.woocommerce-MyAccount-navigation ul li:hover a {
+    background: #000;
+}
+
+form.woocommerce-EditAccountForm.edit-account {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.woocommerce form .form-row label {
+    line-height: 2;
+    color: #000;
+}
+
+.woocommerce-Address {
+    float: left;
+    width: 48%;
+    background: #f1f1f1;
+    padding: 15px;
+}
+
+.woocommerce-MyAccount-content form {
+    background: #f1f1f1;
+    padding: 20px;
+}
+
+.woocommerce button.button:hover,
+.woocommerce-page button.button:hover {
+    background: #2ea3f2 !important;
+    color: #fff !important
+}
+
+.woocommerce table.shop_table thead {
+    background: #2ea3f2;
+}
+
+.woocommerce table.shop_table thead th {
+    color: #fff;
+    font-weight: normal !important;
+}
+
+.woocommerce table.shop_table tbody tr {
+    border: 1px solid #2ea3f2 !important;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li.active a {
+    text-decoration: none;
+    color: #fff !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li a {
+    text-decoration: none;
+    color: #fff !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+}
+
+table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents button.button {
+    padding-bottom: 6px !important;
+    padding-top: 6px !important;
+}
+
+div#customer_details {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #f1f1f1 !important;
+    padding: 20px;
+}
+
+.qty {
+    display: none !important;
+}
+
+/* ----------End my Account ------------------*/
+
+/*------------About us tabing--------------------*/
+
+ul.et_pb_tabs_controls {
+    background-color: #2ea3f2 !important;
+}
+
+ul.et_pb_tabs_controls.clearfix li.et_pb_tab_active a {
+    color: #000 !important;
+}
+
+ul.et_pb_tabs_controls.clearfix li a {
+    color: #fff !important;
+}
+
+/*----------accordian open csss----------------*/
+
+.et_pb_toggle_open .et_pb_toggle_title:before {
+    display: block !important;
+    content: "\e04f";
+}
+
+/*----------end accordian open csss----------------*/
+
+.ect-list-post-left .ect-list-date {
+    -webkit-transition: width linear .5s;
+    transition: width linear .5s;
+    width: 35%;
+    min-width: 100px;
+    display: table;
+    text-align: center;
+    background: #2ea3f2 !important;
+    height: 100%;
+    color: #fff !important;
+    vertical-align: middle;
+    padding: 8px;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+
+.ect-list-venue {
+    width: 30%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    background: #2ea3f2 !important;
+    color: #fff !important;
+    padding: 10px;
+}
+
+.ect-list-venue .ect-google a {
+    font-size: 100%;
+    color: rgba(0, 0, 0, .5);
+    display: none !important;
+}
+
+/*------------------Enroll Now cf7------------*/
+
+/*---------------End cf7 ---------------------------*/
+
+div#respond {
+    display: none !important;
+}
+
+.ai1ec-event-details.ai1ec-clearfix {
+    background: #2ea3f2 !important;
+    padding: 10px !important;
+    color: #fff !important;
+}
+
+.ai1ec-field-label.ai1ec-col-sm-3 {
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+/*------------------------------03/12/2019--------*/
+
+.rrow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rcol50 {
+    width: 50%;
+}
+
+.formcont span,
+.formcont span.wpcf7-form-control-wrap.your-name {
+    width: 100% !important;
+}
+
+.formcont input,
+.formcont select,
+.formcont textarea {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #2ea3f2;
+}
+
+.formcont .rcol50 {
+    margin-bottom: 20px !important;
+    padding: 0 15px;
+}
+
+.formcont .rcol30 {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.plr0 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.rcol100 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.formcont textarea {
+    height: 95px;
+    margin-top: 15px;
+}
+
+.formcont input.wpcf7-form-control.wpcf7-submit {
+    width: auto;
+    min-width: 100px;
+    background: #2ea3f2;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/*---------------------13-12-2019-------------------------------*/
+
+h3.calendar_classes {
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.radiant_calender {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.request_a_batch {
+    width: 100%;
+}
+
+.request_img {
+    width: 50%;
+    float: left;
+}
+
+.request_img img {
+    width: 102px !important;
+    float: right;
+}
+
+.sch_bx_nm {
+    width: 50%;
+    float: right;
+}
+
+section.related.products {
+    float: left !important;
+}
+
+.request_a_batch {
+    padding-top: 22px;
+    border: 15px solid #2ea3f2;
+    padding: 35px;
+    padding-bottom: 106px;
+    margin-top: 10px;
+}
+
+.sch_bx_nm p.main {
+    padding-bottom: 10px;
+}
+
+.sch_bx_nm a {
+    background: #68BCF5;
+    padding: 7px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.radiant_calendar span {
+    color: #2ea3f2;
+}
+
+.radiant_calendar {
+    padding-top: 15px;
+}
+
+.pum-theme-241074 .pum-title,
+.pum-theme-framed-border .pum-title {
+    color: #000000;
+    text-align: left;
+    text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23);
+    font-family: inherit;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center !important;
+    color: #2ea3f2 !important;
+    font-weight: 700 !important;
+}
+
+div#popmake-241075 {
+    border-color: #2ea3f2 !important;
+}
+
+div#popmake-241075 .formcont .rcol50 {
+    margin-bottom: 5px !important;
+    padding: 0 15px !important;
+}
+
+div#popmake-241075 .formcont textarea {
+    height: 59px;
+    margin-top: 15px;
+}
+
+span.ajax-loader {
+    width: 15px !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .sub-menu li ul {
+        width: 100% !important;
+        border-top: 3px solid #2ea3f2;
+        opacity: 1;
+        background: #2ea3f2;
+        -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .1);
+        -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, .1);
+        box-shadow: 0 0px 0px rgba(0, 0, 0, .1);
+    }
+    .et_mobile_menu li a {
+        color: #fff;
+        border-bottom: 1px solid rgba(210, 210, 210, 0.66);
+    }
+    div#et-top-navigation {
+        padding: 0px 0 0 0 !important;
+    }
+    #et_top_search {
+        margin-top: 6px !important;
+    }
+    .et_header_style_left .mobile_menu_bar,
+    .et_header_style_split .mobile_menu_bar {
+        padding: 10px 0;
+    }
+    header#main-header {
+        background: #fff !important;
+    }
+    .et_pb_row {
+        width: 90%;
+    }
+    /* .et_pb_row {
+    width: 98%;
+} */
+    #top_three_product .woocommerce ul.products.columns-3 li.product {
+        width: 100%;
+        height: auto !important;
+    }
+    #top_three_product h2.woocommerce-loop-product__title {
+        height: auto;
+        text-align: left !important;
+    }
+    .woocommerce ul.products li.product .button,
+    .woocommerce ul.products li.product .button,
+    #eight_product h2.woocommerce-loop-product__title {
+        margin-top: 0 !important;
+        font-size: 14px !important;
+        margin-left: 0 !important;
+        text-align: left !important;
+    }
+    #eight_product .et_shop_image img {
+        height: auto !important;
+    }
+    .woocommerce ul.products[class*=columns-] li.product,
+    .woocommerce-page ul.products[class*=columns-] li.product {
+        width: 100% !important;
+    }
+    .et_pb_column .et_pb_text_2 {
+        margin-top: 0px !important;
+    }
+    .et_pb_blurb_0.et_pb_blurb {
+        margin-left: 0;
+    }
+    div#courses_offer_listing ul li {
+        float: left !important;
+        width: 50% !important;
+        padding: 15px !important;
+        text-align: center !important;
+        list-style: none !important;
+        border: 1px solid #e8e8e8 !important;
+        min-height: 100px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .et_pb_blurb.et_pb_text_align_right .et_pb_blurb_content .et_pb_blurb_container {
+        text-align: left !important;
+    }
+    div#mulesoft {
+        width: 49% !important;
+        float: left;
+        border: 3px solid #f1f1f1 !important;
+    }
+    div#quick_links {
+        padding-left: 0px !important;
+    }
+    /*-----------------------------16-June-2020--------------------------------------*/
+    /* 	#post-9 .et_pb_column.et_pb_column_4_4.et_pb_column_0.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+	    margin-left: -368px;
+	} */
+    #post-9 form.aws-search-form.aws-show-clear {
+        width: 664% !important;
+    }
+    div#mulesoft {
+        width: 100% !important;
+    }
+    /* 	.et_pb_section_0.et_pb_section {
+	    padding-top: 144px;
+	    padding-bottom: 244px;
+	    padding-left: 100px;
+	} */
+    .course_bg_new {
+        width: 100%;
+        position: relative;
+        height: 233px !important;
+        background-position: inherit !important;
+        min-height: 233px !important;
+    }
+    .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+        width: 100% !important;
+    }
+    .woocommerce-tabs.wc-tabs-wrapper {
+        width: 160% !important;
+        margin-left: 49px;
+    }
+    .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+        margin-bottom: 14px !important;
+    }
+    .request_img {
+        text-align: center !important;
+        width: 20% !important;
+    }
+    .sch_bx_nm {
+        width: 70%;
+        float: right;
+    }
+    .et_pb_section_0 {
+        height: auto !important;
+        min-height: 300px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3364 .et_pb_section_0 {
+        height: 247px !important;
+        min-height: 239px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3323 .et_pb_section_0.et_pb_section {
+        padding-top: 135px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+    }
+    #post-3323 .et_pb_section_0 {
+        height: 200px !important;
+        min-height: 243px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-240448 .et_pb_section_0,
+    #post-243773 .et_pb_section_0.et_pb_section,
+    #post-240460 .et_pb_section_0.et_pb_section {
+        height: 248px !important;
+        min-height: 239px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-240448 .et_pb_section_0.et_pb_section,
+    #post-243773 .et_pb_section_0.et_pb_section,
+    #post-240460 .et_pb_section_0.et_pb_section {
+        padding-top: 114px !important;
+        padding-bottom: 138px !important;
+    }
+    #post-3354 .et_pb_section_0 {
+        height: 245px !important;
+        min-height: 245px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    .et_pb_text_0 h2 {
+        font-size: 26px !important;
+    }
+    #post-3254 .et_pb_section_0.et_pb_section {
+        padding-top: 88px;
+        padding-bottom: 115px;
+    }
+    #post-3254 .et_pb_section_0 {
+        height: 236px !important;
+        min-height: 236px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-243808 .et_pb_section_0.et_pb_section {
+        padding-top: 19px;
+        padding-right: 95px;
+        padding-bottom: 244px;
+        padding-left: 100px;
+    }
+    #post-243808 .et_pb_section_0 {
+        height: 184px !important;
+        min-height: 260px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3670 .et_pb_section_0.et_pb_section {
+        padding-top: 144px;
+        padding-bottom: 95px;
+        padding-left: 100px;
+    }
+    #post-3670 .et_pb_section_0 {
+        height: 226px !important;
+        min-height: 230px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3670 .et_pb_text_0 h2 {
+        font-size: 26px !important;
+        text-align: left !important;
+    }
+    #post-243972 .et_pb_section_0.et_pb_section {
+        padding-top: 66px;
+        padding-right: 135px;
+    }
+    #post-243972 .et_pb_section_0 {
+        height: 276px !important;
+        min-height: 232px !important;
+    }
+    #post-3315 .et_pb_section_0 {
+        height: 276px !important;
+        min-height: 276px !important;
+    }
+    #post-3319 .et_pb_section_0.et_pb_section {
+        padding-top: 118px;
+        padding-bottom: 118px;
+    }
+    #post-3319 .et_pb_section_0 {
+        height: 251px !important;
+        min-height: 249px !important;
+    }
+    #post-3305 .et_pb_section_0.et_pb_section {
+        padding-top: 100px;
+        padding-bottom: 130px;
+    }
+    #post-3305 .et_pb_section_0 {
+        height: 208px !important;
+        min-height: 208px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3317 .et_pb_section_0.et_pb_section {
+        padding-top: 133px;
+        padding-bottom: 102px;
+    }
+    #post-3317 .et_pb_section_0 {
+        height: 178px !important;
+        min-height: 178px !important;
+    }
+    #post-3303 .et_pb_section_0.et_pb_section {
+        padding-top: 137px;
+        padding-bottom: 126px;
+    }
+    #post-3303 .et_pb_section_0 {
+        height: 254px !important;
+        min-height: 253px !important;
+    }
+    #post-3325 .et_pb_section_0.et_pb_section {
+        padding-top: 144px;
+        padding-bottom: 91px;
+    }
+    #post-3325 .et_pb_section_0 {
+        height: 235px !important;
+        min-height: 224px !important;
+    }
+    #post-33 .et_pb_section_0.et_pb_section {
+        padding-top: 156px;
+        padding-bottom: 85px;
+    }
+    #post-243287 .et_pb_section_0 {
+        padding-top: 136px;
+        padding-bottom: 85px;
+    }
+    #post-33 .et_pb_section_0,
+    #post-243287 .et_pb_section_0 {
+        height: 226px !important;
+        min-height: 226px !important;
+    }
+    #post-33 .et_pb_text_0 {
+        padding-left: 85px !important;
+        margin-top: -4px !important;
+        margin-left: -93px !important;
+    }
+    #post-3716 .et_pb_section_0.et_pb_section {
+        padding-top: 114px !important;
+        padding-bottom: 112px;
+    }
+    #post-3716 .et_pb_section_0 {
+        height: 226px !important;
+        min-height: 226px !important;
+    }
+    #post-242254 .et_pb_section_0.et_pb_section {
+        padding-top: 135px;
+        padding-bottom: 90px;
+    }
+    #post-242254 .et_pb_section_0 {
+        height: 193px !important;
+        min-height: 190px !important;
+    }
+    #post-3346 .et_pb_section_0 {
+        height: 240px !important;
+        min-height: 226px !important;
+    }
+    #post-3350 .et_pb_section_0 {
+        height: 191px !important;
+        min-height: 190px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3356 .et_pb_section_0 {
+        height: 235px !important;
+        min-height: 236px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3358 .et_pb_section_0 {
+        height: 240px !important;
+        min-height: 241px !important;
+    }
+    #post-3358 .et_pb_section_0.et_pb_section {
+        padding-top: 89px;
+        padding-bottom: 123px;
+    }
+    #post-3360 .et_pb_section_0.et_pb_section {
+        padding-top: 144px;
+        padding-bottom: 103px;
+    }
+    #post-3360 .et_pb_section_0 {
+        height: 246px !important;
+        min-height: 228px !important;
+    }
+    #post-3367 .et_pb_section_0 {
+        height: 243px !important;
+        min-height: 243px !important;
+    }
+    #post-3369 .et_pb_section_0 {
+        height: 240px !important;
+        min-height: 216px !important;
+    }
+    #post-3372 .et_pb_section_0 {
+        height: 244px !important;
+        min-height: 244px !important;
+    }
+    #post-3376 .et_pb_section_0 {
+        height: 242px !important;
+        min-height: 235px !important;
+    }
+    #post-3381 .et_pb_section_0 {
+        height: 224px !important;
+        min-height: 222px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    #post-3383 .et_pb_section_0 {
+        height: 239px !important;
+        min-height: 244px !important;
+        width: 100%;
+        max-width: 100%;
+    }
+    .rcol50 {
+        width: 100%;
+    }
+    .privacy-policy .et_pb_row.et_pb_row_0 {
+        width: 100%;
+        float: right;
+        margin-right: 79px !important;
+    }
+    .privacy-policy .et_pb_section_0.et_pb_section {
+        padding-top: 0px !important;
+        padding-bottom: 244px;
+        padding-left: 100px;
+    }
+    .page-id-241055 .et_pb_section_1.et_pb_section {
+        padding-top: 42px;
+        padding-bottom: 26px;
+        background-color: #fff !important;
+    }
+    .footer-widget {
+        padding-left: 15px;
+    }
+    .footer-widget li:before {
+        border-color: #fff !important;
+    }
+    #footer-widgets .footer-widget:nth-child(n),
+    .footer-widget .fwidget {
+        margin-bottom: 3.5% !important;
+    }
+    .my_course_title {
+        padding-left: 17px !important;
+    }
+    .et_builder_inner_content.et_pb_gutters3.product {
+        margin-left: -23px;
+    }
+    #content-area table td {
+        padding: 10px 0px 10px 12px;
+        max-width: 60% !important;
+        float: left !important;
+    }
+    .wpcr3_respond_2 textarea {
+        height: 100px !important;
+        min-width: 277px !important;
+        width: 280px !important;
+    }
+    .wpcr3_respond_2 input[type=text] {
+        min-width: 160px !important;
+    }
+    .entry-content table:not(.variations),
+    body.et-pb-preview #main-content .container table {
+        width: 34% !important;
+    }
+    .wpcr3_div_2 {
+        width: 299px !important;
+    }
+    .et_pb_post .et_post_meta_wrapper {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .et_pb_image .et_pb_image_wrap {
+        padding-bottom: 15px !important;
+    }
+    .et_pb_text>:last-child {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    div#sidebar {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+    #post-243287 .et_pb_text_inner {
+        padding-left: 28px !important;
+    }
+    a.et_pb_button.et_pb_custom_button_icon.et_pb_button_1.et_hover_enabled.et_pb_bg_layout_light {
+        float: right;
+        margin-top: -105px;
+    }
+    .woocommerce-product-gallery.woocommerce-product-gallery--without-images.woocommerce-product-gallery--columns-4.images {
+        width: 100% !important;
+    }
+    .woocommerce div.product .woocommerce-tabs .panel {
+        border: 0px solid #2ea3f2 !important;
+    }
+    body.woocommerce .woocommerce-tabs {
+        margin: 0 0 45px !important;
+        border: 0px solid #d9d9d9 !important;
+    }
+    body.woocommerce #content-area div.product .woocommerce-tabs .panel,
+    body.woocommerce div.product .woocommerce-tabs .panel {
+        padding: 0px !important;
+        padding-top: 22px !important;
+        margin: 0;
+    }
+    .entry-content ul li {
+        float: left;
+        width: 100%;
+        font-size: 18px;
+        color: #000;
+        text-transform: inherit;
+        list-style: none;
+        margin-bottom: 10px;
+        font-weight: 400 !important;
+        padding-left: 1px !important;
+        position: relative;
+    }
+    .entry-content ul {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 10px 0 10px !important;
+    }
+    div#tab-course-outline h3 {
+        font-size: 18px !important;
+    }
+    #left-area ul,
+    .entry-content ul {
+        list-style-type: disc;
+        padding: 0 0 0px 1em !important;
+        line-height: 26px;
+    }
+    .woocommerce-product-details__short-description p,
+    .woocommerce-product-details__short-description h2,
+    .woocommerce-product-details__short-description h3 {
+        color: #000 !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+/*------------------end 16-june-2020-------------------------*/
+
+.evo_cal_above span {
+    background-color: #2ea3f2 !important;
+}
+
+/* Show Secondary menu on devices */
+
+@media (max-width: 767px) {
+    #top-header,
+    div#et-secondary-menu,
+    ul#et-secondary-nav {
+        display: block !important;
+    }
+    #top-header .container {
+        padding-top: 0.75em !important;
+    }
+}
+
+span.evo-jumper-btn.show {
+    opacity: 1 !important;
+}
+
+span.evo-jumper-btn {
+    background: #2ea3f2 !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.eventon_sorting_section {
+    background: #2ea3f2 !important;
+}
+
+p.filtering_set_val {
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+p.filtering_set_val:hover {
+    background: #000 !important;
+}
+
+/*-------------10-02-2020-------------------*/
+
+.footer-widget div#evcal_list {
+    overflow-y: scroll;
+    height: 244px !important;
+}
+
+/*----------------------------32-03-2020----------------------*/
+
+.et_pb_shop_0.et_pb_shop .et_shop_image>img {
+    border-width: 1px !important;
+    border-color: #000 !important;
+}
+
+#logo {
+    max-height: 100%;
+}
+
+a.woocommerce-product-gallery__trigger {
+    display: none;
+}
+
+.summary.entry-summary {
+    color: #000 !important;
+}
+
+.summary.entry-summary ul li {
+    list-style-type: upper-roman;
+}
+
+.woocommerce-product-details__short-description ol li {
+    list-style-type: upper-roman;
+    color: #000 !important
+}
+
+.woocommerce-product-details__short-description p,
+.woocommerce-product-details__short-description h2,
+.woocommerce-product-details__short-description h3 {
+    color: #000 !important;
+}
+
+.et_post_meta_wrapper img {
+    max-width: 50%;
+    height: 400px;
+}
+
+.single-post .entry-content .et_pb_section {
+    padding: 0px 0;
+}
+
+.course_bg_new {
+    width: 100%;
+    min-height: 472px !important;
+    position: relative;
+}
+
+div#woocommerce_product_search-2 {
+    width: 100% !important;
+}
+
+input#woocommerce-product-search-field-0 {
+    width: 361px;
+    border-width: 5px;
+    font-size: 16px;
+    height: 52px;
+    border-radius: 9px;
+    background: #fff !important;
+    border-color: #2ea3f2 !important;
+}
+
+#woocommerce_product_search-2 button {
+    width: 100px !important;
+    border-width: 5px !important;
+    height: 48px !important;
+    border-radius: 5px !important;
+    background: #fff !important;
+    border-color: #2ea3f2 !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    color: #2ea3f2 !important;
+}
+
+form.woocommerce-product-search {
+    text-align: center;
+}
+
+.aws-container .aws-search-form {
+    position: relative;
+    width: 236% !important;
+    float: none !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    align-items: stretch;
+    height: 48px;
+    margin-left: 280px !important;
+}
+
+.aws-container .aws-search-field {
+    width: 100%;
+    max-width: 152%;
+    color: #313131;
+    border: 1px solid #2ea3f2 !important;
+    padding: 6px;
+    line-height: 30px;
+    display: block;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+    -webkit-appearance: none;
+    height: 128% !important;
+    margin: 0 !important;
+    border: 1px solid #d8d8d8;
+    outline: 0;
+}
+
+.aws-container .aws-search-form .aws-form-btn {
+    border: 1px solid #2ea3f2 !important;
+}
+
+.aws-container .aws-search-form .aws-search-btn_icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 42px;
+    color: #2ea3f2 !important;
+}
+
+.search ul.products.columns-3 li.product {
+    height: 400px !important;
+}
+
+.aws-container .aws-search-form .aws-form-btn {
+    border: 1px solid #2ea3f2 !important;
+    height: 61px !important;
+    width: 62px !important;
+}
+
+.aws-container .aws-search-form .aws-search-btn svg {
+    display: block;
+    height: 110% !important;
+    width: 110% !important;
+    padding-left: 13px;
+    font-size: 20px !important;
+}
+
+span.tagged_as {
+    display: none !important;
+}
+
+#cloud_computind_module .et_pb_column.et_pb_column_undefined.et_pb_column_inner.et_pb_column_inner_0.et-last-child {
+    width: 100% !important;
+}
+
+#menu-item-3106 ul.sub-menu {
+    left: 100% !important;
+}
+
+#menu-item-3405 ul.sub-menu {
+    left: 100% !important;
+}
+
+#menu-item-3407 ul.sub-menu {
+    left: 100% !important;
+}
+
+.et_pb_column.et_pb_column_undefined.et_pb_column_inner.et_pb_column_inner_0.et-last-child {
+    width: 100% !important;
+}
+
+#icon_wrapper {
+    position: fixed;
+    top: 46% !important;
+    right: 0px;
+    z-index: 99999;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs ul.tabs li a {
+    text-decoration: none;
+    color: #fff !important;
+    padding-left: 15px !important;
+    padding-right: 18px !important;
+}
+
+.course_bg_new {
+    width: 100%;
+    min-height: 472px !important;
+    position: relative;
+    height: 739px;
+}
+
+h2.yikes-custom-woo-tab-title {
+    display: none;
+}
+
+/*================================04-june-2020==================================*/
+
+.et_pb_shop_0.et_pb_shop .et_shop_image>img {
+    border-width: 1px !important;
+    border-color: #000 !important;
+}
+
+#logo {
+    max-height: 100%;
+}
+
+a.woocommerce-product-gallery__trigger {
+    display: none;
+}
+
+.summary.entry-summary {
+    color: #000 !important;
+}
+
+.summary.entry-summary ul li {
+    list-style-type: square;
+}
+
+.woocommerce-product-details__short-description ol li {
+    list-style-type: upper-roman;
+    color: #000 !important
+}
+
+.woocommerce-product-details__short-description p,
+.woocommerce-product-details__short-description h2,
+.woocommerce-product-details__short-description h3 {
+    color: #000 !important;
+}
+
+.et_post_meta_wrapper img {
+    max-width: 50%;
+    height: 400px;
+}
+
+.single-post .entry-content .et_pb_section {
+    padding: 0px 0;
+}
+
+.course_bg_new {
+    width: 100%;
+    min-height: 472px !important;
+    position: relative;
+}
+
+div#woocommerce_product_search-2 {
+    width: 100% !important;
+}
+
+input#woocommerce-product-search-field-0 {
+    width: 361px;
+    border-width: 5px;
+    font-size: 16px;
+    height: 52px;
+    border-radius: 9px;
+    background: #fff !important;
+    border-color: #2ea3f2 !important;
+}
+
+#woocommerce_product_search-2 button {
+    width: 100px !important;
+    border-width: 5px !important;
+    height: 48px !important;
+    border-radius: 5px !important;
+    background: #fff !important;
+    border-color: #2ea3f2 !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    color: #2ea3f2 !important;
+}
+
+form.woocommerce-product-search {
+    text-align: center;
+}
+
+.aws-container .aws-search-form {
+    position: relative;
+    width: 285% !Important;
+    float: none !important;
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    align-items: stretch;
+    height: 48px;
+    margin-left: 269px !important;
+}
+
+.aws-container .aws-search-field {
+    width: 100%;
+    max-width: 100%;
+    color: #313131;
+    border: 3px solid #2ea3f2 !important;
+    padding: 6px;
+    line-height: 30px;
+    display: block;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+    -webkit-appearance: none;
+    height: 100%;
+    margin: 0 !important;
+    border: 1px solid #d8d8d8;
+    outline: 0;
+}
+
+.aws-container .aws-search-form .aws-form-btn {
+    border: 1px solid #2ea3f2 !important;
+    background: #2ea3f2 !important;
+}
+
+.aws-container .aws-search-form .aws-search-btn_icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 42px;
+    color: #fff !important;
+}
+
+.search ul.products.columns-3 li.product {
+    height: 400px !important;
+}
+
+#post-3346 .et_pb_column.et_pb_column_undefined.et_pb_column_inner.et_pb_column_inner_0.et-last-child {
+    width: 100% !important;
+}
+
+.related .products h2.woocommerce-loop-product__title {
+    min-height: 27px;
+    max-height: 66px;
+    height: 65px;
+}
+
+.related .woocommerce ul.products.columns-3 li.product,
+.related .woocommerce-page ul.products.columns-3 li.product {
+    width: 30.75%;
+    background: #f1f1f1;
+    padding: 10px !important;
+    height: 400px !important;
+}
+
+.related img.woocommerce-placeholder.wp-post-image.lazyloaded {
+    max-height: 252px;
+}
+
+.search-results h2.woocommerce-loop-product__title {
+    height: 61px;
+}
+
+.search-results .woocommerce ul.products li.product .button {
+    margin-top: 1em !important;
+    font-size: 14px !important;
+    margin-left: 60px !important;
+    font-weight: 700 !important;
+}
+
+.related a.button.product_type_simple {
+    margin-top: 2.9em;
+    font-size: 14px !important;
+    margin-left: 60px !important;
+    font-weight: 700 !important;
+}
+
+#top-menu a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2ea3f2 !important;
+    text-transform: uppercase;
+}
+
+.pum-theme-241074 .pum-container,
+.pum-theme-framed-border .pum-container {
+    padding: 18px;
+    border-radius: 0px;
+    border: 20px outset #2ea3f2 !important;
+    box-shadow: 1px 1px 3px 0px rgba(2, 2, 2, 0.97) inset;
+    background-color: rgba( 255, 251, 239, 1.00);
+}
+
+/*==================Mobile top menu===================*/
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 100% !important;
+    }
+    .et_header_style_left .logo_container {
+        padding-left: 25px;
+    }
+    .et_header_style_centered #main-header .mobile_nav {
+        background-color: transparent;
+    }
+    .mobile_nav.closed .select_page {
+        display: none;
+    }
+    .et-fixed-header#main-header {
+        background-color: transparent !important;
+    }
+}
+
+.et_mobile_menu {
+    top: 1 !important;
+    background-color: #2ea3f2 !important;
+    padding: 20% 0;
+}
+
+.et_mobile_menu li a {
+    text-align: center;
+    font-size: .8em;
+    border: 0;
+    padding: 15px 0;
+    letter-spacing: 1px;
+}
+
+.mobile_nav ul#mobile_menu .current_page_item>a {
+    color: #283fc0;
+}
+
+.mobile_nav ul#mobile_menu li ul li a {
+    font-size: .8em !important;
+    margin: auto;
+    color: #fff !important;
+    padding-top: 0.2em;
+}
+
+.et_mobile_menu li a:hover {
+    color: #999;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.mobile_menu_bar:before {
+    padding-right: 25px;
+    color: #2ea3f2 !important;
+}
+
+.mobile_nav.opened .mobile_menu_bar:before {
+    content: "\4d";
+    z-index: 99999;
+}
+
+/* NESTING MOBILE MENU SETTINGS */
+
+#et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::before {
+    content: '\4d';
+}
+
+#top-menu .menu-item-has-children .menu-item-has-children>a:first-child::after,
+#et-secondary-nav .menu-item-has-children .menu-item-has-children>a:first-child::after {
+    content: '5';
+}
+
+#main-header #mobile_menu.et_mobile_menu .menu-item-has-children {
+    position: relative;
+}
+
+#main-header #mobile_menu.et_mobile_menu .sub-menu-toggle {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#main-header #mobile_menu.et_mobile_menu .sub-menu-toggle.popped {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#main-header #mobile_menu.et_mobile_menu .sub-menu-toggle::before {
+    font-family: "ETmodules" !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 36px;
+    font-size: 24px;
+    text-transform: none;
+    speak: none;
+    content: '\33';
+}
+
+#main-header #mobile_menu.et_mobile_menu .sub-menu-toggle.popped::before {
+    content: '\32';
+}
+
+#main-header #mobile_menu.et_mobile_menu .sub-menu-toggle~ul.sub-menu {
+    display: none !important;
+    padding-left: 0;
+}
+
+#main-header #mobile_menu.et_mobile_menu .sub-menu-toggle.popped~ul.sub-menu {
+    display: block !important;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+#main-header #mobile_menu.et_mobile_menu li li {
+    padding-left: 0;
+}
+
+#main-header #mobile_menu.et_mobile_menu li a,
+#main-header #mobile_menu.et_mobile_menu li li a,
+#main-header #mobile_menu.et_mobile_menu li li li a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#main-header #mobile_menu.et_mobile_menu .menu-item-has-children .sub-menu-toggle+a {
+    padding-right: 20px;
+}
+
+#main-header #mobile_menu.et_mobile_menu .menu-item-has-children>a {
+    background-color: transparent;
+    font-weight: inherit;
+    color: #fff !important;
+}
+
+#main-header #mobile_menu.et_mobile_menu li.current-menu-item>a {
+    font-weight: bolder;
+}
+
+/*----------------------calendar-------------------------*/
+
+job_listing_sections {
+    float: left;
+    width: 100%;
+    padding: 65px 0px;
+}
+
+.career_job_search {
+    float: left;
+    width: 100%;
+}
+
+.career_job_search ul {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.career_job_search ul li {
+    float: left;
+    width: 31%;
+    list-style: none;
+    margin-right: 9px;
+}
+
+.career_job_search ul li:last-child {
+    float: right;
+    width: auto;
+}
+
+.career_job_search ul li h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.career_job_search ul li select {
+    background: #e8e9e8;
+    font-size: 18px;
+    color: #000;
+    border: none;
+    padding: 15px 10px;
+    height: inherit !important;
+}
+
+.career_job_search ul li select:focus {
+    outline: none !important;
+    box-shadow: inherit !important;
+    border: none !important;
+    background: #e8e9e8 !important;
+}
+
+.career_job_search ul li:last-child button {
+    float: right;
+    width: auto;
+    padding: 12px 30px;
+    background: #2ea3f2;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+}
+
+.career_job_search ul li:last-child button:focus,
+button:hover {
+    outline: none !important;
+    box-shadow: inherit !important;
+    border: none !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.career_job_profile_list {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.career_job_profile_list ul {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.career_job_profile_list ul li {
+    float: left;
+    width: 31%;
+    margin-right: 2%;
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+.career_profile_box {
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 136px
+}
+
+.career_profile_image {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.career_profile_image img {
+    width: 100%;
+}
+
+.career_profile_details {
+    float: left;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(121, 121, 121, .5);
+    padding: 10px 10px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+    position: absolute;
+    height: 106%;
+    padding: 15px;
+}
+
+.tag_profile {
+    float: left;
+    width: auto;
+    background: #2ea3f2;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.job_profile {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    color: #010101;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 15px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.job_profile span {
+    float: left;
+    width: 100%;
+    font-weight: 300;
+}
+
+.unsolicited_application_sections {
+    float: left;
+    width: 100%;
+    padding: 60px 0px;
+    background: #e3e3e3;
+}
+
+.unsolicited_application_inner {
+    float: left;
+    width: 100%;
+}
+
+.unsolicited_application_inner h4 {
+    float: left;
+    width: 100%;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.unsolicited_application_inner p {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.unsolicited_application_inner ul {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 30px 0px 20px;
+}
+
+.unsolicited_application_inner ul li {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000;
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding-left: 30px;
+    position: relative;
+}
+
+.unsolicited_application_inner ul li:before {
+    position: absolute;
+    content: "\f058";
+    font-family: Fontawesome;
+    left: 0px;
+    font-size: 20px;
+    line-height: 1.3;
+    color: gray;
+}
+
+a.applybtn {
+    float: left;
+    width: auto;
+    background: #2ea3f2;
+    padding: 15px 36px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+}
+
+a.applybtn:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+}
+
+.call_action_bar {
+    float: left;
+    width: 100%;
+    background: #3f4040;
+    padding: 20px 0px;
+}
+
+.call_action_bar h4 {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.call_action_bar p {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.call_action_bar a.join_btn {
+    float: right;
+    width: auto;
+    background: #fff;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+
+.career_details_container {
+    float: left;
+    width: 100%;
+    padding: 35px 0px;
+}
+
+.career_details_title {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+}
+
+.career_details_title h3 {
+    float: left;
+    width: 100%;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.career_details_title h3 em {
+    font-size: 18px;
+    color: #000;
+    font-weight: 300;
+    vertical-align: top;
+    font-style: normal;
+}
+
+.career_details_title h3 span {
+    font-weight: bold;
+    color: #2ea3f2;
+    float: none;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.career_details_title span {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+}
+
+a.btn_apply_jo {
+    float: right;
+    width: auto;
+    background: #2ea3f2;
+    padding: 15px 36px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.btn_apply_jo:hover {
+    background: #000;
+    text-decoration: none;
+    color: #fff;
+}
+
+.career_details_content {
+    float: left;
+    width: 100%;
+    padding: 45px 0px;
+}
+
+.career_details_content h5 {
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2ea3f2;
+    text-transform: uppercase;
+}
+
+.career_details_content p {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.career_details_content ul {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 10px 0px 20px;
+}
+
+.career_details_content ul li {
+    float: left;
+    width: 100%;
+    font-size: 17px;
+    color: #000;
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: 300;
+    position: relative;
+}
+
+.career_details_content ul li:before {
+    content: "\25A0";
+    color: #2ea3f2;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 17px;
+}
+
+.entry-content ul {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 30px 0px 20px;
+}
+
+.entry-content ul li {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    text-transform: inherit;
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+    padding-left: 5px;
+    position: relative;
+}
+
+.entry-content ul li:before {
+    background: url() no-repeat;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    content: '';
+    left: 0px;
+}
+
+a.download_pdf_btn {
+    float: left;
+    width: auto;
+    background: #2ea3f2;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+a.applynow_btn_btm {
+    float: none;
+    width: auto;
+    background: #2ea3f2;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+a.download_pdf_btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+}
+
+a.applynow_btn_btm:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+}
+
+.career_details_gallery {
+    float: left;
+    width: 100%;
+    padding: 0px 0px 55px 0px;
+}
+
+.career_details_gallery .owl-prev {
+    position: absolute;
+    top: 50% !important;
+    background: url() no-repeat !important;
+    width: 22px !important;
+    height: 42px !important;
+    text-indent: 999px;
+    overflow: hidden;
+    transform: translate(0%, -50%);
+    left: 0;
+}
+
+.career_details_gallery .owl-next {
+    position: absolute;
+    top: 50% !important;
+    background: url() no-repeat !important;
+    width: 22px !important;
+    height: 42px !important;
+    text-indent: 999px;
+    overflow: hidden;
+    right: 0;
+    transform: translate(0%, -50%);
+}
+
+.page-id-244657 #main-footer {
+    background-color: #222;
+    clear: both;
+}
+
+.career_job_search ul li select {
+    margin-bottom: 20px;
+}
+
+.job_listing_sections {
+    padding-top: 39px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.course_month {
+    float: left;
+    width: 32%;
+}
+
+.course_mode {
+    width: 32%;
+    float: left;
+}
+
+.course_time {
+    float: left;
+    width: 32%;
+}
+
+.checks.checkbox {
+    width: 50%;
+    float: left;
+}
+
+.tag_profile1 {
+    float: right;
+    background: #2ea3f2;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.tag_profile2 {
+    width: auto;
+    position: absolute;
+    margin-top: 50px;
+    background: #2ea3f2;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+    border: 0px solid #2ea3f2 !important;
+}
+
+body.woocommerce .woocommerce-tabs {
+    margin: 0 0 45px !important;
+    border: 0px solid #d9d9d9 !important;
+}
+
+body.woocommerce #content-area div.product .woocommerce-tabs .panel,
+body.woocommerce div.product .woocommerce-tabs .panel {
+    padding: 0px !important;
+    padding-top: 22px !important;
+    margin: 0;
+}
+
+.entry-content ul li {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    text-transform: inherit;
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+    padding-left: 1px;
+    position: relative;
+}
+
+.entry-content ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 10px !important;
+}
+
+div#tab-course-outline h3 {
+    font-size: 18px !important;
+}
+
+#left-area ul,
+.entry-content ul {
+    list-style-type: disc;
+    padding: 0 0 0px 1em !important;
+    line-height: 26px;
+}
+
+.woocommerce-product-details__short-description p,
+.woocommerce-product-details__short-description h2,
+.woocommerce-product-details__short-description h3 {
+    color: #000 !important;
+    padding-bottom: 0px !important;
+}
+
+/* page responsive */
+
+/* page responsive */
+
+@media only screen and (max-width: 1000px) {
+    #post-261514 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261514 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261514 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2613931,
+    #tab-2613932,
+    #tab-2613933,
+    #tab-2613934,
+    #tab-2613935 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261519 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261519 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261519 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2613941,
+    #tab-2613942,
+    #tab-2613943,
+    #tab-2613944,
+    #tab-2613945 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    #post-261519 .et_pb_row {
+        padding: 0% 0% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261523 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261523 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261523 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2613951,
+    #tab-2613952,
+    #tab-2613953,
+    #tab-2613954,
+    #tab-2613955 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Linux Foundation*/
+
+/*Open Source Virtualization (LFS462)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262124 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262124 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262124 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621321,
+    #tab-2621322,
+    #tab-2621323,
+    #tab-2621324,
+    #tab-2621325 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Linux System Administration (LFS307)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262131 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262131 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262131 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621261,
+    #tab-2621262,
+    #tab-2621263,
+    #tab-2621264,
+    #tab-2621265 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Linux Kernel Internals & Development (LFD420)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262149 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262149 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262149 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621511,
+    #tab-2621512,
+    #tab-2621513,
+    #tab-2621514,
+    #tab-2621515 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Linux for System Engineers (LFS311)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262156 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262156 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262156 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621581,
+    #tab-2621582,
+    #tab-2621583,
+    #tab-2621584,
+    #tab-2621585 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Linux for Cloud Technicians (LFS303))*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262164 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262164 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262164 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621631,
+    #tab-2621632,
+    #tab-2621633,
+    #tab-2621634,
+    #tab-2621635 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Teradata */
+
+@media only screen and (max-width: 1000px) {
+    #post-261805 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261805 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261805 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617971,
+    #tab-2617972,
+    #tab-2617973,
+    #tab-2617974,
+    #tab-2617975 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Introduction to the Teradata Database*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261823 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261823 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261823 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618081,
+    #tab-2618082,
+    #tab-2618083,
+    #tab-2618084,
+    #tab-2618085 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Teradata Parallel Transporter: Vantage Advanced SQL Engine*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261840 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261840 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261840 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618251,
+    #tab-2618252,
+    #tab-2618253,
+    #tab-2618254,
+    #tab-2618255 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Teradata SQL Differences*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261853 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261853 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261853 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618431,
+    #tab-2618432,
+    #tab-2618433,
+    #tab-2618434,
+    #tab-2618435 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Teradata SQL Intermediate Course*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261860 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261860 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261860 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618571,
+    #tab-2618572,
+    #tab-2618573,
+    #tab-2618574,
+    #tab-2618575 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261868 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261868 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261868 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618631,
+    #tab-2618632,
+    #tab-2618633,
+    #tab-2618634,
+    #tab-2618635 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261873 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261873 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261873 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618701,
+    #tab-2618702,
+    #tab-2618703,
+    #tab-2618704,
+    #tab-2618705 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261878 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261878 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261878 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618771,
+    #tab-2618772,
+    #tab-2618773,
+    #tab-2618774,
+    #tab-2618775 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261883 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261883 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261883 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618821,
+    #tab-2618822,
+    #tab-2618823,
+    #tab-2618824,
+    #tab-2618825 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261889 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261889 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261889 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618851,
+    #tab-2618852,
+    #tab-2618853,
+    #tab-2618854,
+    #tab-2618855 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261894 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261894 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261894 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618931,
+    #tab-2618932,
+    #tab-2618933,
+    #tab-2618934,
+    #tab-2618935 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261899 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261899 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261899 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618981,
+    #tab-2618982,
+    #tab-2618983,
+    #tab-2618984,
+    #tab-2618985 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261904 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261904 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261904 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619011,
+    #tab-2619012,
+    #tab-2619013,
+    #tab-2619014,
+    #tab-2619015 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Qlik*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261908 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261908 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261908 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619071,
+    #tab-2619072,
+    #tab-2619073,
+    #tab-2619074,
+    #tab-2619075 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261913 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261913 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261913 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619111,
+    #tab-2619112,
+    #tab-2619113,
+    #tab-2619114,
+    #tab-2619115 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261918 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261918 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261918 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619171,
+    #tab-2619172,
+    #tab-2619173,
+    #tab-2619174,
+    #tab-2619175 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261923 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261923 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261923 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619221,
+    #tab-2619222,
+    #tab-2619223,
+    #tab-2619224,
+    #tab-2619225 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261927 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261927 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261927 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619251,
+    #tab-2619252,
+    #tab-2619253,
+    #tab-2619254,
+    #tab-2619255 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261932 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261932 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261932 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619311,
+    #tab-2619312,
+    #tab-2619313,
+    #tab-2619314,
+    #tab-2619315 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261937 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261937 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261937 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619341,
+    #tab-2619342,
+    #tab-2619343,
+    #tab-2619344,
+    #tab-2619345 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261942 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261942 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261942 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619391,
+    #tab-2619392,
+    #tab-2619393,
+    #tab-2619394,
+    #tab-2619395 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261948 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261948 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261948 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619471,
+    #tab-2619472,
+    #tab-2619473,
+    #tab-2619474,
+    #tab-2619475 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261954 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261954 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261954 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619531,
+    #tab-2619532,
+    #tab-2619533,
+    #tab-2619534,
+    #tab-2619535 {
+        padding-left: 10px !important;
+    }
+}
+
+/*31/3*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261961 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261961 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261961 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619571,
+    #tab-2619572,
+    #tab-2619573,
+    #tab-2619574,
+    #tab-2619575 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261969 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261969 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261969 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619631,
+    #tab-2619632,
+    #tab-2619633,
+    #tab-2619634,
+    #tab-2619635 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261688 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261688 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261688 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2616871,
+    #tab-2616872,
+    #tab-2616873,
+    #tab-2616874,
+    #tab-2616875 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261694 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261694 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261694 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2616931,
+    #tab-2616932,
+    #tab-2616933,
+    #tab-2616934,
+    #tab-2616935 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261724 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261724 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261724 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617231,
+    #tab-2617232,
+    #tab-2617233,
+    #tab-2617234,
+    #tab-2617235 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261730 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261730 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261730 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617291,
+    #tab-2617292,
+    #tab-2617293,
+    #tab-2617294,
+    #tab-2617295 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261655 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261655 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261655 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2616541,
+    #tab-2616542,
+    #tab-2616543,
+    #tab-2616544,
+    #tab-2616545 {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #post-261682 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261682 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261682 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2616811,
+    #tab-2616812,
+    #tab-2616813,
+    #tab-2616814,
+    #tab-2616815 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Linux Foundation*/
+
+/*Kubernetes for App Developers (LFD459)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262169 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262169 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262169 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621701,
+    #tab-2621702,
+    #tab-2621703,
+    #tab-2621704,
+    #tab-2621705 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Embedded Linux Platform Development with the Yocto Project (LFD460)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262194 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262194 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262194 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621961,
+    #tab-2621962,
+    #tab-2621963,
+    #tab-2621964,
+    #tab-2621965 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Embedded Linux Development (LFD450)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262200 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262200 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262200 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2622021,
+    #tab-2622022,
+    #tab-2622023,
+    #tab-2622024,
+    #tab-2622025 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Developing Linux Device Drivers (LFD430)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262207 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262207 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262207 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2622091,
+    #tab-2622092,
+    #tab-2622093,
+    #tab-2622094,
+    #tab-2622095 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Developing Embedded Linux Device Drivers (LFD435)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262214 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262214 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262214 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2622151,
+    #tab-2622152,
+    #tab-2622153,
+    #tab-2622154,
+    #tab-2622155 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Developing Applications For Linux (LFD401)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262220 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262220 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262220 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2622211,
+    #tab-2622212,
+    #tab-2622213,
+    #tab-2622214,
+    #tab-2622215 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Introduction to Linux, Open Source Development, & GIT (LFD301)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262181 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262181 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262181 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621821,
+    #tab-2621822,
+    #tab-2621823,
+    #tab-2621824,
+    #tab-2621825 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Kubernetes Administration (LFS458)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-262175 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262175 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262175 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621771,
+    #tab-2621772,
+    #tab-2621773,
+    #tab-2621774,
+    #tab-2621775 {
+        padding-left: 10px !important;
+    }
+}
+
+/*palto alto*/
+
+/*Prisma SD-WAN 6.0: Design and Operation (EDU-238)*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261405 .et_pb_section {
+        padding-bottom: 0px !important;
+    }
+    #post-261405 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261405 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2614061,
+    #tab-2614062,
+    #tab-2614063,
+    #tab-2614064,
+    #tab-26140615 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Arcsight*/
+
+/*ArcSight-SOAR-3.2-Configuring ArcSight SOAR for Effective Threat Response*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261977 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261977 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261977 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619761,
+    #tab-2619762,
+    #tab-2619763,
+    #tab-2619764,
+    #tab-2619765 {
+        padding-left: 10px !important;
+    }
+}
+
+/*ArcSight-Platform-22.1-Installing & Configuring ArcSight Platform*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261983 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261983 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261983 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619851,
+    #tab-2619852,
+    #tab-2619853,
+    #tab-2619854,
+    #tab-2619855 {
+        padding-left: 10px !important;
+    }
+}
+
+/*ArcSight-LOG-7.x-ArcSight Logger Administration and Operations*/
+
+@media only screen and (max-width: 1000px) {
+    #post-261990 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261990 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261990 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619911,
+    #tab-2619912,
+    #tab-2619913,
+    #tab-2619914,
+    #tab-2619915 {
+        padding-left: 10px !important;
+    }
+}
+
+/* ArcSight-ESM-7.6-Advanced Analys  */
+
+@media only screen and (max-width: 1000px) {
+    #post-262108 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262108 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262108 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621091,
+    #tab-2621092,
+    #tab-2621093,
+    #tab-2621094,
+    #tab-2621095 {
+        padding-left: 10px !important;
+    }
+}
+
+/* ArcSight-ESM-7.6-Administrator & Analyst-L3xx-ILT/VILT  */
+
+@media only screen and (max-width: 1000px) {
+    #post-262119 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262119 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262119 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621181,
+    #tab-2621182,
+    #tab-2621183,
+    #tab-2621184,
+    #tab-2621185 {
+        padding-left: 10px !important;
+    }
+}
+
+/* ArcSight-FlexConnector-7.6- ArcSight FlexConnector ConfigurationÂ -L3xx-Digital  */
+
+@media only screen and (max-width: 1000px) {
+    #post-262101 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262101 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262101 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2621021,
+    #tab-2621022,
+    #tab-2621023,
+    #tab-2621024,
+    #tab-2621025 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Genesys */
+
+/* PureConnect Custom Reporting */
+
+@media only screen and (max-width: 1000px) {
+    #post-260083 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260083 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260083 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600821,
+    #tab-2600822,
+    #tab-2600823,
+    #tab-2600824,
+    #tab-2600825 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Interaction Dialer Certified Engineer (IDCE) Training */
+
+@media only screen and (max-width: 1000px) {
+    #post-260088 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260088 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260088 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600891,
+    #tab-2600892,
+    #tab-2600893,
+    #tab-2600894,
+    #tab-2600895 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Interaction Center Handler Developer (ICHD) Training */
+
+@media only screen and (max-width: 1000px) {
+    #post-260094 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260094 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260094 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600951,
+    #tab-2600952,
+    #tab-2600953,
+    #tab-2600954,
+    #tab-2600955 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Interaction Center Core Specialist (ICCS) Intensive */
+
+@media only screen and (max-width: 1000px) {
+    #post-260100 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260100.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260100 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2601011,
+    #tab-2601012,
+    #tab-2601013,
+    #tab-2601014,
+    #tab-2601015 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Interaction Center Certified Engineer (ICCE) */
+
+@media only screen and (max-width: 1000px) {
+    #post-260106 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260106.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260106 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2601071,
+    #tab-2601072,
+    #tab-2601073,
+    #tab-2601074,
+    #tab-2601075 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IC System Configuration and Support */
+
+@media only screen and (max-width: 1000px) {
+    #post-260112 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260112.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260112 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2601131,
+    #tab-2601132,
+    #tab-2601133,
+    #tab-2601134,
+    #tab-2601135 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring Call Flows */
+
+@media only screen and (max-width: 1000px) {
+    #post-260120 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260120.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260120 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2601191,
+    #tab-2601192,
+    #tab-2601193,
+    #tab-2601194,
+    #tab-2601195 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Using Genesys Engage Cloud 8.5 */
+
+@media only screen and (max-width: 1000px) {
+    #post-260132 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260132.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260132 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2601331,
+    #tab-2601332,
+    #tab-2601333,
+    #tab-2601334,
+    #tab-2601335 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Designer for Developers */
+
+@media only screen and (max-width: 1000px) {
+    #post-260139 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260139.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260139 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2601401,
+    #tab-2601402,
+    #tab-2601403,
+    #tab-2601404,
+    #tab-2601405 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Intelligent Automation Application Development */
+
+@media only screen and (max-width: 1000px) {
+    #post-260587 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260587.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260587 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2605861,
+    #tab-2605862,
+    #tab-2605863,
+    #tab-2605864,
+    #tab-2605865 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Intelligent Automation Administration */
+
+@media only screen and (max-width: 1000px) {
+    #post-260593 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260593.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260593 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2605941,
+    #tab-2605942,
+    #tab-2605943,
+    #tab-2605944,
+    #tab-2605945 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Genesys SIP Server - Basics */
+
+@media only screen and (max-width: 1000px) {
+    #post-260599 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260599.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260599 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2606001,
+    #tab-2606002,
+    #tab-2606003,
+    #tab-2606004,
+    #tab-2606005 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Genesys SDK 8.5 Workshop for Developers */
+
+@media only screen and (max-width: 1000px) {
+    #post-260606 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260606.et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260606 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2606071,
+    #tab-2606072,
+    #tab-2606073,
+    #tab-2606074,
+    #tab-2606075 {
+        padding-left: 10px !important;
+    }
+}
+
+/* adobe */
+
+/* Administer & Maintain Adobe Workfront I */
+
+@media only screen and (max-width: 1000px) {
+    #post-261791 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261791 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261791 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617901,
+    #tab-2617902,
+    #tab-2617903,
+    #tab-2617904,
+    #tab-2617905 {
+        padding-left: 10px !important;
+    }
+}
+
+/*Create Reports & Visualizations Using Adobe Analytics  */
+
+@media only screen and (max-width: 1000px) {
+    #post-261858 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261858 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261858 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618521,
+    #tab-2618522,
+    #tab-2618523,
+    #tab-2618524,
+    #tab-2618525 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Advanced Analysis with Analysis Workspace */
+
+@media only screen and (max-width: 1000px) {
+    #post-261798 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261798 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261798 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617961,
+    #tab-2617962,
+    #tab-2617963,
+    #tab-2617964,
+    #tab-2617965 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Getting Started with Adobe Campaign v8 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261826 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261826 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261826 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618221,
+    #tab-2618222,
+    #tab-2618223,
+    #tab-2618224,
+    #tab-2618225 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Design & Orchestrate Marketing Campaigns Using Adobe Campaign Standard */
+
+@media only screen and (max-width: 1000px) {
+    #post-261807 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261807 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261807 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618041,
+    #tab-2618042,
+    #tab-2618043,
+    #tab-2618044,
+    #tab-2618045 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Manage Data & Workflows in Adobe Campaign v8 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261846 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261846 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261846 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618371,
+    #tab-2618372,
+    #tab-2618373,
+    #tab-2618374,
+    #tab-2618375 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Develop & Customize Data Models in Adobe Campaign v8 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261817 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261817 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261817 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2618151,
+    #tab-2618152,
+    #tab-2618153,
+    #tab-2618154,
+    #tab-2618155 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Magento 2 Development Essentials */
+
+@media only screen and (max-width: 1000px) {
+    #post-261760 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261760 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261760 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617591,
+    #tab-2617592,
+    #tab-2617593,
+    #tab-2617594,
+    #tab-2617595 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Magento 2 Front End for Developers */
+
+@media only screen and (max-width: 1000px) {
+    #post-261768 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261768 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261768 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617651,
+    #tab-2617652,
+    #tab-2617653,
+    #tab-2617654,
+    #tab-2617655 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Build & Control an Online Store Using Adobe Commerce */
+
+@media only screen and (max-width: 1000px) {
+    #post-261754 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261754 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261754 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617521,
+    #tab-2617522,
+    #tab-2617523,
+    #tab-2617524,
+    #tab-2617525 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Magento Commerce Cloud for Developers */
+
+@media only screen and (max-width: 1000px) {
+    #post-261779 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261779 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261779 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617731,
+    #tab-2617732,
+    #tab-2617733,
+    #tab-2617734,
+    #tab-2617735 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Manage Catalogs & Products Using Adobe Commerce */
+
+@media only screen and (max-width: 1000px) {
+    #post-261785 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261785 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261785 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2617841,
+    #tab-2617842,
+    #tab-2617843,
+    #tab-2617844,
+    #tab-2617845 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore */
+
+/* Web Experience Management 10 */
+
+@media only screen and (max-width: 1000px) {
+    #post-262035 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262035 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262035 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620341,
+    #tab-2620342,
+    #tab-2620343,
+    #tab-2620344,
+    #tab-2620345 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore Developer Fundamentals 10 */
+
+@media only screen and (max-width: 1000px) {
+    #post-262014 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262014 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262014 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620121,
+    #tab-2620122,
+    #tab-2620123,
+    #tab-2620124,
+    #tab-2620125 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore Solution Developer 10 */
+
+@media only screen and (max-width: 1000px) {
+    #post-262029 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262029 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262029 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620281,
+    #tab-2620282,
+    #tab-2620283,
+    #tab-2620284,
+    #tab-2620285 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Advanced Solution Developer 10 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261966 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261966 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261966 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619561,
+    #tab-2619562,
+    #tab-2619563,
+    #tab-2619564,
+    #tab-2619565 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Context Marketing Fundamentals 9.3 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261998 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261998 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261998 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2619971,
+    #tab-2619972,
+    #tab-2619973,
+    #tab-2619974,
+    #tab-2619975 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore Headless Services for JSS Workshop */
+
+@media only screen and (max-width: 1000px) {
+    #post-262020 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262020 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262020 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620191,
+    #tab-2620192,
+    #tab-2620193,
+    #tab-2620194,
+    #tab-2620195 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Security:â€¯Configuring Users andâ€¯Roles for Administrators */
+
+@media only screen and (max-width: 1000px) {
+    #post-262006 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262006 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262006 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620041,
+    #tab-2620042,
+    #tab-2620043,
+    #tab-2620044,
+    #tab-2620045 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore Content Hub Administrator */
+
+@media only screen and (max-width: 1000px) {
+    #post-262050 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262050 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262050 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620491,
+    #tab-2620492,
+    #tab-2620493,
+    #tab-2620494,
+    #tab-2620495 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore Content Hub Developer */
+
+@media only screen and (max-width: 1000px) {
+    #post-262058 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262058 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262058 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620561,
+    #tab-2620562,
+    #tab-2620563,
+    #tab-2620564,
+    #tab-2620565 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore OrderCloud */
+
+@media only screen and (max-width: 1000px) {
+    #post-262043 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262043 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262043 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620421,
+    #tab-2620422,
+    #tab-2620423,
+    #tab-2620424,
+    #tab-2620425 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore CDP */
+
+@media only screen and (max-width: 1000px) {
+    #post-262065 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262065 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262065 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620641,
+    #tab-2620642,
+    #tab-2620643,
+    #tab-2620644,
+    #tab-2620645 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Sitecore Personalize */
+
+@media only screen and (max-width: 1000px) {
+    #post-262073 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-262073 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-262073 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2620691,
+    #tab-2620692,
+    #tab-2620693,
+    #tab-2620694,
+    #tab-2620695 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Dynatrace */
+
+/* Dynatrace Associate */
+
+@media only screen and (max-width: 1000px) {
+    #post-260727 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260727 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260727 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2607261,
+    #tab-2607262,
+    #tab-2607263,
+    #tab-2607264,
+    #tab-2607265 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Dynatrace Professional */
+
+@media only screen and (max-width: 1000px) {
+    #post-260733 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260733 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260733 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2607321,
+    #tab-2607322,
+    #tab-2607323,
+    #tab-2607324,
+    #tab-2607325 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Scrum Study */
+
+/* Scrum Master Certified */
+
+@media only screen and (max-width: 1000px) {
+    #post-260406 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260406 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260406 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2604051,
+    #tab-2604052,
+    #tab-2604053,
+    #tab-2604054,
+    #tab-2604055 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Agile Master Certified */
+
+@media only screen and (max-width: 1000px) {
+    #post-260412 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260412 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260412 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2604111,
+    #tab-2604112,
+    #tab-2604113,
+    #tab-2604114,
+    #tab-2604115 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Scrum Fundamentals Certified (SFC) */
+
+@media only screen and (max-width: 1000px) {
+    #post-260419 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260419 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260419 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2604171,
+    #tab-2604172,
+    #tab-2604173,
+    #tab-2604174,
+    #tab-2604175 {
+        padding-left: 10px !important;
+    }
+}
+
+/* sailpoint */
+
+/* IdentityIQ Implementation: Rules, Scripts, & API v8.0 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261035 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261035 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261035 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2610341,
+    #tab-2610342,
+    #tab-2610343,
+    #tab-2610344,
+    #tab-2610345 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Implementation: Rapid Setup v8.1 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261029 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261029 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261029 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2610281,
+    #tab-2610282,
+    #tab-2610283,
+    #tab-2610284,
+    #tab-2610285 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Implementation: Advanced Provisioning & Workflows v8.2  */
+
+@media only screen and (max-width: 1000px) {
+    #post-261023 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261023 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261023 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2610221,
+    #tab-2610222,
+    #tab-2610223,
+    #tab-2610224,
+    #tab-2610225 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Implementation: Accelerator Pack  */
+
+@media only screen and (max-width: 1000px) {
+    #post-261017 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261017 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261017 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2610161,
+    #tab-2610162,
+    #tab-2610163,
+    #tab-2610164,
+    #tab-2610165 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Implementation & Administration: Essentials v8.1  */
+
+@media only screen and (max-width: 1000px) {
+    #post-261011 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261011 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261011 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2610101,
+    #tab-2610102,
+    #tab-2610103,
+    #tab-2610104,
+    #tab-2610105 {
+        padding-left: 10px !important;
+    }
+}
+
+/*  IdentityIQ Implementation & Administration: Essentials v8.0 */
+
+@media only screen and (max-width: 1000px) {
+    #post-261005 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-261005 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-261005 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2610041,
+    #tab-2610042,
+    #tab-2610043,
+    #tab-2610044,
+    #tab-2610045 {
+        padding-left: 10px !important;
+    }
+}
+
+/*  IdentityIQ Implementation: Custom Reports */
+
+@media only screen and (max-width: 1000px) {
+    #post-260987 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260987 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260987 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609981,
+    #tab-2609982,
+    #tab-2609983,
+    #tab-2609984,
+    #tab-2609985 {
+        padding-left: 10px !important;
+    }
+}
+
+/*  IdentityIQ Essentials v8.2*/
+
+@media only screen and (max-width: 1000px) {
+    #post-260993 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260993 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260993 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609921,
+    #tab-2609922,
+    #tab-2609923,
+    #tab-2609924,
+    #tab-2609925 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Business Administration: Roles v8.0  */
+
+@media only screen and (max-width: 1000px) {
+    #post-260993 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260993 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260993 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609861,
+    #tab-2609862,
+    #tab-2609863,
+    #tab-2609864,
+    #tab-2609865 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Business Administration: Policy v8.0  */
+
+@media only screen and (max-width: 1000px) {
+    #post-260981 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260981 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260981 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609801,
+    #tab-2609802,
+    #tab-2609803,
+    #tab-2609804,
+    #tab-2609805 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Business Administration: Certification v8.0 */
+
+@media only screen and (max-width: 1000px) {
+    #post-260975 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260975 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260975 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609741,
+    #tab-2609742,
+    #tab-2609743,
+    #tab-2609744,
+    #tab-2609745 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityIQ Advanced Implementation: Plugins v8.3  */
+
+@media only screen and (max-width: 1000px) {
+    #post-260969 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260969 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260969 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609681,
+    #tab-2609682,
+    #tab-2609683,
+    #tab-2609684,
+    #tab-2609685 {
+        padding-left: 10px !important;
+    }
+}
+
+/*  IdentityNow: Password Management */
+
+@media only screen and (max-width: 1000px) {
+    #post-260963 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260963 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260963 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609621,
+    #tab-2609622,
+    #tab-2609623,
+    #tab-2609624,
+    #tab-2609625 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityNow Implementation: Advanced Configurations  */
+
+@media only screen and (max-width: 1000px) {
+    #post-260957 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260957 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260957 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609561,
+    #tab-2609562,
+    #tab-2609563,
+    #tab-2609564,
+    #tab-2609565 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityNow Essentials */
+
+@media only screen and (max-width: 1000px) {
+    #post-260951 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260951 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260951 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609501,
+    #tab-2609502,
+    #tab-2609503,
+    #tab-2609504,
+    #tab-2609505 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityNow Essentials 1: Setup &Modeling */
+
+@media only screen and (max-width: 1000px) {
+    #post-260933 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260933 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260933 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609321,
+    #tab-2609322,
+    #tab-2609323,
+    #tab-2609324,
+    #tab-2609325 {
+        padding-left: 10px !important;
+    }
+}
+
+/* IdentityNow Essentials 2: Provisioning */
+
+@media only screen and (max-width: 1000px) {
+    #post-260939 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260939 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260939 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609381,
+    #tab-2609382,
+    #tab-2609383,
+    #tab-2609384,
+    #tab-2609385 {
+        padding-left: 10px !important;
+    }
+}
+
+/*  IdentityNow Essentials 3: Search & Compliance */
+
+@media only screen and (max-width: 1000px) {
+    #post-260945 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260945 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260945 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609441,
+    #tab-2609442,
+    #tab-2609443,
+    #tab-2609444,
+    #tab-2609445 {
+        padding-left: 10px !important;
+    }
+}
+
+/* File Access Manager Essentials */
+
+@media only screen and (max-width: 1000px) {
+    #post-260927 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260927 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260927 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2609261,
+    #tab-2609262,
+    #tab-2609263,
+    #tab-2609264,
+    #tab-2609265 {
+        padding-left: 10px !important;
+    }
+}
+
+/* F5 */
+
+/* Troubleshooting BIG-IP LTM */
+
+@media only screen and (max-width: 1000px) {
+    #post-260037 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260037 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260037 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600361,
+    #tab-2600362,
+    #tab-2600363,
+    #tab-2600364,
+    #tab-2600365 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Setting up F5 Advanced WAF */
+
+@media only screen and (max-width: 1000px) {
+    #post-260031 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260031 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260031 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600301,
+    #tab-2600302,
+    #tab-2600303,
+    #tab-2600304,
+    #tab-2600305 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Developing iRules for BIG-IP */
+
+@media only screen and (max-width: 1000px) {
+    #post-260025 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260025 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260025 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600241,
+    #tab-2600242,
+    #tab-2600243,
+    #tab-2600244,
+    #tab-2600245 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring F5 SSL Orchestrator */
+
+@media only screen and (max-width: 1000px) {
+    #post-260019 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260019 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260019 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600181,
+    #tab-2600182,
+    #tab-2600183,
+    #tab-2600184,
+    #tab-2600185 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring F5 Advanced WAF */
+
+@media only screen and (max-width: 1000px) {
+    #post-260013 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260013 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260013 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600121,
+    #tab-2600122,
+    #tab-2600123,
+    #tab-2600124,
+    #tab-2600125 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring BIG-IQ */
+
+@media only screen and (max-width: 1000px) {
+    #post-260007 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260007 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260007 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600061,
+    #tab-2600062,
+    #tab-2600063,
+    #tab-2600064,
+    #tab-2600065 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring BIG-IP on VIPRION */
+
+@media only screen and (max-width: 1000px) {
+    #post-260001 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260001 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260001 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2600001,
+    #tab-2600002,
+    #tab-2600003,
+    #tab-2600004,
+    #tab-2600005 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring BIG-IP Local Traffic Manager (LTM) */
+
+@media only screen and (max-width: 1000px) {
+    #post-259995 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-259995 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-259995 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2599941,
+    #tab-2599942,
+    #tab-2599943,
+    #tab-2599944,
+    #tab-2599945 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring BIG-IP DNS */
+
+@media only screen and (max-width: 1000px) {
+    #post-259989 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-259989 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-259989 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2599881,
+    #tab-2599882,
+    #tab-2599883,
+    #tab-2599884,
+    #tab-2599885 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring BIG-IP AFM: Advanced Firewall Manager */
+
+@media only screen and (max-width: 1000px) {
+    #post-259983 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-259983 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-259983 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2599821,
+    #tab-2599822,
+    #tab-2599823,
+    #tab-2599824,
+    #tab-2599825 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Configuring BIG-IP Access Policy Manager */
+
+@media only screen and (max-width: 1000px) {
+    #post-259977 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-259977 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-259977 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2599761,
+    #tab-2599762,
+    #tab-2599763,
+    #tab-2599764,
+    #tab-2599765 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Automating BIG-IP with AS3 */
+
+@media only screen and (max-width: 1000px) {
+    #post-259971 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-259971 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-259971 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2599691,
+    #tab-2599692,
+    #tab-2599693,
+    #tab-2599694,
+    #tab-2599695 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Automating BIG-IP with Ansible */
+
+@media only screen and (max-width: 1000px) {
+    #post-259964 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-259964 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-259964 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2599631,
+    #tab-2599632,
+    #tab-2599633,
+    #tab-2599634,
+    #tab-2599635 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Administering BIG-IP */
+
+@media only screen and (max-width: 1000px) {
+    #post-259958 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-259958 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-259958 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2599571,
+    #tab-2599572,
+    #tab-2599573,
+    #tab-2599574,
+    #tab-2599575 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Building Analytic Applications */
+
+@media only screen and (max-width: 1000px) {
+    #post-260921 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260921 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260921 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2603921,
+    #tab-2603922,
+    #tab-2603923,
+    #tab-2603924,
+    #tab-2603925 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Alteryx Designer Core */
+
+@media only screen and (max-width: 1000px) {
+    #post-260916 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260916 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260916 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2603881,
+    #tab-2603882,
+    #tab-2603883,
+    #tab-2603884,
+    #tab-2603885 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Alteryx Designer Advanced */
+
+@media only screen and (max-width: 1000px) {
+    #post-260911 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260911 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260911 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2603851,
+    #tab-2603852,
+    #tab-2603853,
+    #tab-2603854,
+    #tab-2603855 {
+        padding-left: 10px !important;
+    }
+}
+
+/* Advanced Certification Exam Preparation */
+
+@media only screen and (max-width: 1000px) {
+    #post-260906 .et_pb_section {
+        padding-left: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    #post-260906 .et_pb_section_0 {
+        height: auto !important;
+    }
+    #post-260906 .et_pb_row {
+        width: 98% !important;
+        padding: 15px 0 !important;
+    }
+    #tab-2603711,
+    #tab-2603712,
+    #tab-2603713,
+    #tab-2603714,
+    #tab-2603715 {
+        padding-left: 10px !important;
+    }
+}
